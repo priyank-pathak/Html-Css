@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: lavender;
+}
+.logo {
+  width: 300px;
+  margin-top: 230px;
+  margin-left: 240px;
+}
+.content {
+  width: 490px;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 240px;
+}
+.form {
+  width: 400px;
+  float: right;
+  margin-top: -220px;
+  margin-right: 340px;
+  background: #fff;
+  border-radius: 05px;
+  height: 370px;
+  box-shadow: 2px 4px 10px #888;
+}
+.form input {
+  height: 50px;
+  width: 360px;
+  border-radius: 7px;
+  border: 0.1px solid lightgrey;
+  padding-left: 15px;
+  font-size: medium;
+  margin-left: 2px;
+}
+#email {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#pass {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.login {
+  height: 50px;
+  width: 373px;
+  border-radius: 7px;
+  margin-left: 14px;
+  margin-top: 20px;
+  background-color: #3874e6;
+  margin-bottom: 20px;
+  border: 1px solid #3874e6;
+}
+.login h4 {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #fff;
+  padding-left: 2px;
+}
+.login a {
+  text-decoration: none;
+}
+.login:hover {
+  cursor: pointer;
+}
+
+.anchor {
+  margin-left: 130px;
+  text-decoration: none;
+  color: #3874e6;
+}
+.anchor:hover {
+  text-decoration: underline #3874e6;
+}
+hr {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.create {
+  height: 50px;
+  width: 200px;
+  border-radius: 4px;
+  margin-left: 110px;
+  margin-top: 20px;
+  background-color: rgb(38, 182, 38);
+  margin-bottom: 20px;
+  border: 1px solid rgb(38, 182, 38);
+}
+.create:hover {
+  cursor: pointer;
+}
+.create h4 {
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #fff;
+}
